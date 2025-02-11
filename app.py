@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-OLLAMA_API_URL = "http://localhost:11434/api/generate"  # Ollama runs on this port
+OLLAMA_API_URL = " https://8f76-2409-408d-4e86-d36e-8502-1e30-6e38-55be.ngrok-free.app/api/generate"  # Ollama runs on this port
 
 @app.route("/", methods=["GET"])
 def home():
